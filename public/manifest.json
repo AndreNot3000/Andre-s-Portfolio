@@ -1,0 +1,21 @@
+{
+  "name": "Olumide Andre - Flutter Developer Portfolio",
+  "short_name": "Olumide Andre",
+  "description": "Portfolio of Olumide Andre - Flutter Mobile App Developer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#02569B",
+  "theme_color": "#02569B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "developer", "mobile", "flutter"],
+  "lang": "en",
+  "dir": "ltr"
+}

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-flutter-blue to-flutter-cyan bg-clip-text text-transparent;
+  }
+  
+  .flutter-gradient {
+    @apply bg-gradient-to-r from-flutter-blue via-flutter-lightBlue to-flutter-cyan;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
+  }
+  
+  .btn-primary {
+    @apply bg-flutter-blue hover:bg-flutter-lightBlue text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-flutter-blue text-flutter-blue hover:bg-flutter-blue hover:text-white px-6 py-3 rounded-lg font-medium transition-all duration-200;
+  }
+}

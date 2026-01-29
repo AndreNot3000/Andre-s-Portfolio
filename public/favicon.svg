@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Flutter-inspired favicon design -->
+  <rect width="32" height="32" rx="6" fill="#02569B"/>
+  
+  <!-- Flutter logo inspired design -->
+  <path d="M8 24L16 16L24 24L20 28L12 20L8 24Z" fill="#13B9FD"/>
+  <path d="M16 8L24 16L20 20L12 12L16 8Z" fill="#0175C2"/>
+  <path d="M20 20L24 16L28 20L24 24L20 20Z" fill="#ffffff" fill-opacity="0.8"/>
+  
+  <!-- Mobile device outline -->
+  <rect x="10" y="6" width="12" height="20" rx="2" stroke="#ffffff" stroke-width="1" fill="none"/>
+  <circle cx="16" cy="23" r="1" fill="#ffffff"/>
+</svg>
